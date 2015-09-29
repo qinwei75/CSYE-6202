@@ -28,6 +28,7 @@ namespace FindingPrimeNumbers
             for (int i = 3; primenumber < n; i++)
             {
                 Boolean flag = true;
+
                 for (j = 2; j <= Math.Sqrt(i); j++)
                 {
                     if (i % j == 0) // not prime
