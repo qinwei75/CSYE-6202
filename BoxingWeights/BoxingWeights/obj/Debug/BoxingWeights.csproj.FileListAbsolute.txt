@@ -1,6 +1,0 @@
-D:\NEU\CSYE6202\Assignments\WQ_Assignments\BoxingWeights\BoxingWeights\bin\Debug\BoxingWeights.exe.config
-D:\NEU\CSYE6202\Assignments\WQ_Assignments\BoxingWeights\BoxingWeights\bin\Debug\BoxingWeights.exe
-D:\NEU\CSYE6202\Assignments\WQ_Assignments\BoxingWeights\BoxingWeights\bin\Debug\BoxingWeights.pdb
-D:\NEU\CSYE6202\Assignments\WQ_Assignments\BoxingWeights\BoxingWeights\obj\Debug\BoxingWeights.csprojResolveAssemblyReference.cache
-D:\NEU\CSYE6202\Assignments\WQ_Assignments\BoxingWeights\BoxingWeights\obj\Debug\BoxingWeights.exe
-D:\NEU\CSYE6202\Assignments\WQ_Assignments\BoxingWeights\BoxingWeights\obj\Debug\BoxingWeights.pdb
