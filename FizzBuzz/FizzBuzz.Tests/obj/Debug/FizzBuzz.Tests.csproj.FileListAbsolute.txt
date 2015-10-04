@@ -1,0 +1,9 @@
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FizzBuzz\FizzBuzz.Tests\obj\Debug\FizzBuzz.Tests.csprojResolveAssemblyReference.cache
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FizzBuzz\FizzBuzz.Tests\bin\Debug\FizzBuzz.Tests.dll
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FizzBuzz\FizzBuzz.Tests\bin\Debug\FizzBuzz.Tests.pdb
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FizzBuzz\FizzBuzz.Tests\bin\Debug\FizzBuzz.exe
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FizzBuzz\FizzBuzz.Tests\bin\Debug\nunit.framework.dll
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FizzBuzz\FizzBuzz.Tests\bin\Debug\FizzBuzz.pdb
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FizzBuzz\FizzBuzz.Tests\bin\Debug\nunit.framework.xml
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FizzBuzz\FizzBuzz.Tests\obj\Debug\FizzBuzz.Tests.dll
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FizzBuzz\FizzBuzz.Tests\obj\Debug\FizzBuzz.Tests.pdb

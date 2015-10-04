@@ -1,0 +1,5 @@
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\PrintingPatterns\TrianglePatterns\bin\Debug\TrianglePatterns.exe.config
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\PrintingPatterns\TrianglePatterns\bin\Debug\TrianglePatterns.exe
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\PrintingPatterns\TrianglePatterns\bin\Debug\TrianglePatterns.pdb
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\PrintingPatterns\TrianglePatterns\obj\Debug\TrianglePatterns.exe
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\PrintingPatterns\TrianglePatterns\obj\Debug\TrianglePatterns.pdb

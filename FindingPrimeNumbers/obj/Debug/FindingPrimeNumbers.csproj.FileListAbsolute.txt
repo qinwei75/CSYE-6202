@@ -1,0 +1,11 @@
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FindingPrimeNumbers\bin\Debug\FindingPrimeNumbers.exe.config
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FindingPrimeNumbers\bin\Debug\FindingPrimeNumbers.exe
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FindingPrimeNumbers\bin\Debug\FindingPrimeNumbers.pdb
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FindingPrimeNumbers\bin\Debug\StyleCop.CSharp.dll
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FindingPrimeNumbers\bin\Debug\StyleCop.CSharp.Rules.dll
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FindingPrimeNumbers\bin\Debug\StyleCop.dll
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FindingPrimeNumbers\bin\Debug\Microsoft.Build.Utilities.v3.5.dll
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FindingPrimeNumbers\bin\Debug\Microsoft.Build.Utilities.v3.5.xml
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FindingPrimeNumbers\obj\Debug\FindingPrimeNumbers.csprojResolveAssemblyReference.cache
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FindingPrimeNumbers\obj\Debug\FindingPrimeNumbers.exe
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FindingPrimeNumbers\obj\Debug\FindingPrimeNumbers.pdb
