@@ -54,7 +54,7 @@ namespace TrianglePatterns
             }
             Console.ReadLine();
         }
-         
+          
         static void DisplayPatternC()
         {
             // your implementation here
