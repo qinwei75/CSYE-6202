@@ -77,14 +77,14 @@ namespace TrianglePatterns
 
 		static void DisplayPatternD()
 		{
-            // your implementation here
+            // your implementation here 
             Console.WriteLine("Patten D");
             int i, j, k;
             for (i = 1; i <= 10; i++)
             {
                 for (j = 1; j <= 10 - i; j++)
                 {
-                    //Console.Write(" ");
+                    Console.Write(" ");
                 }
                 for (k = 1; k <= i; k++)
                 {
