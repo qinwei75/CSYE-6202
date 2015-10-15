@@ -58,6 +58,8 @@ namespace GasPump
         public static bool UserEnteredSentinelValue(string userInput)
 		{
 			var result = false;
+            if (userInput == null)
+                return result;
 
             // your implementation here
             if (userInput.ToUpper().Equals("Q"))// Q or q
@@ -73,7 +75,8 @@ namespace GasPump
 		public static bool UserEnteredValidGasType(string userInput)
 		{
 			var result = false;
-
+            if (userInput == null)
+                return result;
             // your implementation here
             if (userInput.ToUpper().Equals("R")||
                 userInput.ToUpper().Equals("P")||
