@@ -7,6 +7,8 @@ namespace HealthRecordApp
 	{
 		public static bool ValidateFirstName(string firstName)
 		{
+            if (firstName==null) { return false; }
+                
             Regex r = new Regex("^[A-Z][a-zA-Z]*$");
             Match match = r.Match(firstName);
             if (match.Success)
@@ -21,6 +23,7 @@ namespace HealthRecordApp
 
 		public static bool ValidateLastName(string lastName)
 		{
+            if(lastName == null){ return false; }
             Regex r = new Regex("^[A-Z][a-zA-Z]*$");
             Match match = r.Match(lastName);
             if (match.Success)
@@ -37,10 +40,15 @@ namespace HealthRecordApp
 		{
             if (enteredGender == "Male")
             {
-                patientGender = 0;
+                patientGender = Gender.Male;
                 return true;
             }
             else if (enteredGender == "Female")
+            {
+                patientGender = Gender.Female;
+                return true;
+            }
+            else if (enteredGender == "Unspecified")
             {
                 patientGender = 0;
                 return true;
@@ -52,6 +60,7 @@ namespace HealthRecordApp
 
 		public static bool ValidateDateOfBirth(string enteredDOB, ref DateTime patientDOB)
 		{
+
             try {
                 patientDOB = DateTime.Parse(enteredDOB);
                 return true;
@@ -59,8 +68,12 @@ namespace HealthRecordApp
             {
                 return false;
             }
-            
-		}
+            if (DateTime.Parse(enteredDOB).CompareTo(DateTime.Today) > 0) {
+                return false;
+            }
+                
+
+        }
 
 		public static bool ValidateHeight(string heightInString, ref int patientHeight)
 		{
