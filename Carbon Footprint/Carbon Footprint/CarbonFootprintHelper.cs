@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace Carbon_Footprint
 {
-    class Program
+    public class CarbonFootprintHelper
     {
-        static void Main(string[] args)
-        {
-
-        }
     }
 }
