@@ -13,24 +13,23 @@ namespace Carbon_Footprint
             double totalCost = 0;
             double sum = 0;
             // your implementation here
-            while (true)
-            {
-                Console.Write("Type: Car, Bicycle, Building");
-                Console.Write("Please enter a type, Q/q to quit:");
-                string userInput = Console.ReadLine();
-                if (Business.ItemHelper.ValidateItemType(userInput))
+            Console.Write("Type: Car, Bicycle, Building");
+            Console.ReadLine();
+            Console.Write("Please enter a type: ");
+            string userInput = Console.ReadLine();
+                while (!Business.ItemHelper.ValidateItemType(userInput))
                 {
-                    Console.WriteLine("Application terminated");
+                    Console.WriteLine("Invalidate Input. Please enter a type: ");
                     Console.ReadLine();
-                    System.Environment.Exit(1);
+                string type = userInput;
                 }
                 //check ItemType input
-                else if (Business.ItemHelper.ValidateItemType(userInput))
+                while (!Business.ItemHelper.ValidateQty(userInput))
                 {
                     Console.WriteLine(userInput);
                     Console.ReadLine();
                 }
-            }
+            
         }
     }
 }
