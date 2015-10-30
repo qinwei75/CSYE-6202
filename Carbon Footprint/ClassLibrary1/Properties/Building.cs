@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Business
 {
-    class Building : Item
+    public class Building : Item
     {
-        public override double CalculateCarbonFootprints(double ammount)
+        public override double CalculateCarbonFootprints(double area)
         {
-            return 50 * ammount;
+            return 50 * area;
         }
     }
 }

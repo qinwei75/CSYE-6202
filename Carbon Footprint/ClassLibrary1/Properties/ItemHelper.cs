@@ -8,29 +8,7 @@ namespace Business
 {
     public class ItemHelper
     {
-        public static bool ValidateItemType(string enteredType)
-        {
-            if (enteredType == "")
-            {
-                return false;
-            }
-            if (enteredType == "Bicycle")
-            {
-                return true;
-            }
-            else if (enteredType == "Car")
-            {
-                return true;
-            }
-            else if (enteredType == "Building")
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
+
         public static bool ValidateQty(string qtyInString, ref double qty)
         {
             //0 is not allowed

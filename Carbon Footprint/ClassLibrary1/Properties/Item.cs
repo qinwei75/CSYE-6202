@@ -8,10 +8,10 @@ namespace Business
 {
     public abstract class Item
     {
-        private string type { get; set; }
-        private double ammount { get; set; }
+        public string type { get; set; } //CAR BIKE BUILDING
+        public double ammount { get; set; }
         //private const ...
-        private double carbonOutput { get; set; }
+        public double carbonOutput { get; set; }
 
         public abstract double CalculateCarbonFootprints(double ammount);
     }
