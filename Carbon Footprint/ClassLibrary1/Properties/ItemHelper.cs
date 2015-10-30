@@ -8,7 +8,7 @@ namespace Business
 {
     public class ItemHelper
     {
-        public static bool ValidateItemType(string enteredType, ref Item.ItemType itemType)
+        public static bool ValidateItemType(string enteredType)
         {
             if (enteredType == "")
             {
@@ -16,17 +16,14 @@ namespace Business
             }
             if (enteredType == "Bicycle")
             {
-                itemType = Item.ItemType.Bicycle;
                 return true;
             }
             else if (enteredType == "Car")
             {
-                itemType = Item.ItemType.Car;
                 return true;
             }
             else if (enteredType == "Building")
             {
-                itemType = Item.ItemType.Building;
                 return true;
             }
             else
@@ -34,31 +31,21 @@ namespace Business
                 return false;
             }
         }
-        public static bool ValidateNumber(string enteredType, ref Item.ItemType itemType)
+        public static bool ValidateQty(string qtyInString)
         {
-            if (enteredType == "")
+            //0 is not allowed
+            try { Convert.ToInt32(qtyInString); }
+            catch (Exception) { return false; }
+            double q = Convert.ToInt32(qtyInString);
+            if (q > 0)
             {
-                return false;
-            }
-            if (enteredType == "Bicycle")
-            {
-                itemType = Item.ItemType.Bicycle;
-                return true;
-            }
-            else if (enteredType == "Car")
-            {
-                itemType = Item.ItemType.Car;
-                return true;
-            }
-            else if (enteredType == "Building")
-            {
-                itemType = Item.ItemType.Building;
                 return true;
             }
             else
             {
                 return false;
             }
+
         }
     }
 

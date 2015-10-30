@@ -14,7 +14,6 @@ namespace Business
             Car,
             Building
         }
-        private ItemType typeName { get; set; }//Car, Bike, Building
         private double carbonOutput { get; set; }
         public abstract double CalculateCarbonFootprints(double qty);
     }
