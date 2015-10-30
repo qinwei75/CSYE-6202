@@ -8,9 +8,9 @@ namespace Business
 {
     class Building : Item
     {
-        public override double CalculateCarbonFootprints(double qty)
+        public override double CalculateCarbonFootprints(double ammount)
         {
-            return 50 * qty;
+            return 50 * ammount;
         }
     }
 }

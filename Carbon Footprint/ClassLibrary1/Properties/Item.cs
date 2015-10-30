@@ -8,13 +8,11 @@ namespace Business
 {
     public abstract class Item
     {
-        public enum ItemType
-        {
-            Bicycle,
-            Car,
-            Building
-        }
+        private string type { get; set; }
+        private double ammount { get; set; }
+        //private const ...
         private double carbonOutput { get; set; }
-        public abstract double CalculateCarbonFootprints(double qty);
+
+        public abstract double CalculateCarbonFootprints(double ammount);
     }
 }

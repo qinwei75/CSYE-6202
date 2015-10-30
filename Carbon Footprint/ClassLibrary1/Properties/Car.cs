@@ -8,9 +8,9 @@ namespace Business
 {
     class Car : Item
     {
-        public override double CalculateCarbonFootprints(double qty)
+        public override double CalculateCarbonFootprints(double ammount)
         {
-            return qty * 20;
+            return 20 * ammount;
         }
     }
 }

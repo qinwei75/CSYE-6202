@@ -15,22 +15,23 @@ namespace Carbon_Footprint
             // your implementation here
             Console.Write("Type: Car, Bicycle, Building");
             Console.ReadLine();
-            Console.Write("Please enter a type: ");
-            string type = Console.ReadLine();
-            while (!Business.ItemHelper.ValidateItemType(type))
+            Console.Write("Please enter used gas of a Car(Gallon): ");
+            string gas = Console.ReadLine();
+            while (!Business.ItemHelper.ValidateQty(gas))
             {
-                Console.WriteLine("Invalidate Input. Please enter a type: ");
+                Console.WriteLine(gas);
                 Console.ReadLine();
             }
-            //check ItemType input
-            Console.Write("Please enter qty: ");
-            string qty = Console.ReadLine();
-            while (!Business.ItemHelper.ValidateQty(qty))
-                {
-                    Console.WriteLine(qty);
-                    Console.ReadLine();
-                }
-            
+            //Building
+            Console.Write("Please enter area of a biulding(squarefoot): ");
+            string area = Console.ReadLine();
+            while (!Business.ItemHelper.ValidateQty(area))
+            {
+                Console.WriteLine(area);
+                Console.ReadLine();
+            }
+
+
         }
     }
 }
