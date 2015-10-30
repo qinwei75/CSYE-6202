@@ -12,9 +12,9 @@ namespace Business
         public static bool ValidateQty(string qtyInString, ref double qty)
         {
             //0 is not allowed
-            try { Convert.ToInt32(qtyInString); }
+            try { Convert.ToDouble(qtyInString); }
             catch (Exception) { return false; }
-            double q = Convert.ToInt32(qtyInString);
+            double q = (double)Convert.ToDouble(qtyInString);
             if (q > 0)
             {
                 qty = q;
