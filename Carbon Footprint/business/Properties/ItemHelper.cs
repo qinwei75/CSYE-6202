@@ -8,7 +8,7 @@ namespace Carbon_Footprint
 {
     public class ItemHelper
     {
-        public static bool ValidateItemType(string enteredType, ref Program.ItemType itemType)
+        public static bool ValidateItemType(string enteredType, ref Item.ItemType itemType)
         {
             if (enteredType == "")
             {
@@ -16,17 +16,17 @@ namespace Carbon_Footprint
             }
             if (enteredType == "Bicycle")
             {
-                itemType = Program.ItemType.Bicycle;
+                itemType = Item.ItemType.Bicycle;
                 return true;
             }
             else if (enteredType == "Car")
             {
-                itemType = Program.ItemType.Car;
+                itemType = Item.ItemType.Car;
                 return true;
             }
             else if (enteredType == "Building")
             {
-                itemType = Program.ItemType.Building;
+                itemType = Item.ItemType.Building;
                 return true;
             }
             else

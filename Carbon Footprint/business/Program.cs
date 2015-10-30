@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Carbon_Footprint
+namespace business
 {
-    public class Item
+    class Program
     {
+        static void Main(string[] args)
+        {
+        }
     }
 }
