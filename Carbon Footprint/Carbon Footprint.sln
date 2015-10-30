@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carbon Footprint", "Carbon Footprint\Carbon Footprint.csproj", "{E0F77E9A-8FEB-42A6-B918-3A4F09E79905}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "business\Business.csproj", "{12EECC6F-0A46-46BC-8C93-A24404210149}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "ClassLibrary1\Business.csproj", "{924F158F-BC2E-454E-9859-33338A71F6BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{E0F77E9A-8FEB-42A6-B918-3A4F09E79905}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0F77E9A-8FEB-42A6-B918-3A4F09E79905}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0F77E9A-8FEB-42A6-B918-3A4F09E79905}.Release|Any CPU.Build.0 = Release|Any CPU
-		{12EECC6F-0A46-46BC-8C93-A24404210149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{12EECC6F-0A46-46BC-8C93-A24404210149}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{12EECC6F-0A46-46BC-8C93-A24404210149}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{12EECC6F-0A46-46BC-8C93-A24404210149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{924F158F-BC2E-454E-9859-33338A71F6BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{924F158F-BC2E-454E-9859-33338A71F6BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{924F158F-BC2E-454E-9859-33338A71F6BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{924F158F-BC2E-454E-9859-33338A71F6BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
