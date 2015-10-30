@@ -31,7 +31,7 @@ namespace Business
                 return false;
             }
         }
-        public static bool ValidateQty(string qtyInString)
+        public static bool ValidateQty(string qtyInString, ref double qty)
         {
             //0 is not allowed
             try { Convert.ToInt32(qtyInString); }
@@ -39,6 +39,7 @@ namespace Business
             double q = Convert.ToInt32(qtyInString);
             if (q > 0)
             {
+                qty = q;
                 return true;
             }
             else

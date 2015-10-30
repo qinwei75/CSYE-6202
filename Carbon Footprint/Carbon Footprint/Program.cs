@@ -17,7 +17,7 @@ namespace Carbon_Footprint
             Console.ReadLine();
             Console.Write("Please enter used gas of a Car(Gallon): ");
             string gas = Console.ReadLine();
-            while (!Business.ItemHelper.ValidateQty(gas))
+            while (!Business.ItemHelper.ValidateQty(gas,))
             {
                 Console.WriteLine(gas);
                 Console.ReadLine();
