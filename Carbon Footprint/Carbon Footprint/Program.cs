@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Carbon_Footprint
 {
-    class Program
+    public class Program
     {
         public enum ItemType
         {
