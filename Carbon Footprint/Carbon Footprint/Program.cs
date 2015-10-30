@@ -8,40 +8,40 @@ namespace Carbon_Footprint
 {
     class Program
     {
-        public enum Type
+        public enum ItemType
         {
             None,
             Bicycle,
             Car,
             Building
         }
-        public static Type TypeMapper(char c)
+        public static ItemType TypeMapper(char c)
         {
-            Type type = Type.None;
+            ItemType type = ItemType.None;
 
             // your implementation here
             switch (c)
             {
                 default:
-                    type = Type.None;
+                    type = ItemType.None;
                     break;
                 case 'B':
                 case 'b':
-                    type = Type.Bicycle;
+                    type = ItemType.Bicycle;
                     break;
                 case 'C':
                 case 'c':
-                    type = Type.Car;
+                    type = ItemType.Car;
                     break;
                 case 'L':
                 case 'l':
-                    type = Type.Building;
+                    type = ItemType.Building;
                     break;
             }
             return type;
         }
 
-        public static double OutputMapper(Type type)
+        public static double OutputMapper(ItemType type)
         {
             var result = 0.0;
             // your implementation here
@@ -50,13 +50,13 @@ namespace Carbon_Footprint
                 //case Type.None:
                 //   result = 0.0;
                 //    break;
-                case Type.Bicycle:
+                case ItemType.Bicycle:
                     result = 0.0;
                     break;
-                case Type.Car:
+                case ItemType.Car:
                     result = 20;
                     break;
-                case Type.Building:
+                case ItemType.Building:
                     result = 50;
                     break;
             }
