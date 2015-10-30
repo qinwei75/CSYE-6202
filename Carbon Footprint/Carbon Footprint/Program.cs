@@ -16,17 +16,18 @@ namespace Carbon_Footprint
             Console.Write("Type: Car, Bicycle, Building");
             Console.ReadLine();
             Console.Write("Please enter a type: ");
-            string userInput = Console.ReadLine();
-                while (!Business.ItemHelper.ValidateItemType(userInput))
+            string type = Console.ReadLine();
+            while (!Business.ItemHelper.ValidateItemType(type))
+            {
+                Console.WriteLine("Invalidate Input. Please enter a type: ");
+                Console.ReadLine();
+            }
+            //check ItemType input
+            Console.Write("Please enter qty: ");
+            string qty = Console.ReadLine();
+            while (!Business.ItemHelper.ValidateQty(qty))
                 {
-                    Console.WriteLine("Invalidate Input. Please enter a type: ");
-                    Console.ReadLine();
-                string type = userInput;
-                }
-                //check ItemType input
-                while (!Business.ItemHelper.ValidateQty(userInput))
-                {
-                    Console.WriteLine(userInput);
+                    Console.WriteLine(qty);
                     Console.ReadLine();
                 }
             
