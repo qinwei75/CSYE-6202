@@ -10,7 +10,7 @@ namespace Business
     {
         public string type { get; set; } //CAR BIKE BUILDING
         public double ammount { get; set; }
-        //private const ...
+ 
         public double carbonOutput { get; set; }
 
         public abstract double CalculateCarbonFootprints(double ammount);
