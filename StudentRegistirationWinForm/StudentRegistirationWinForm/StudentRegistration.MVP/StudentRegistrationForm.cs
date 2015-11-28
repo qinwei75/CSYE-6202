@@ -28,13 +28,19 @@ namespace StudentRegistration.MVP
             RemoveMenu(GetSystemMenu(Handle, IntPtr.Zero), 0, MF_BYPOSITION | MF_REMOVE);
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-
+            LoadDefaults();
             LoadDepartments();
         }
         private void LoadDepartments()
         {
             comboBoxDepartment.Items.AddRange(new[] { "Information Systems", "International Affairs", "Nursing", "Pharmacy",
                 "Professional Studies", "Psychology", "Public Administration" });
+        }
+        private void LoadDefaults()
+        {
+            rbtFullTime.Select();
+            comboBoxDepartment.SelectedIndex = 0;
+
         }
 
 
