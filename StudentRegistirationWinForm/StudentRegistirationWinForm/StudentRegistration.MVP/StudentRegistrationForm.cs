@@ -39,7 +39,7 @@ namespace StudentRegistration.MVP
         private void LoadDefaults()
         {
             rbtFullTime.Select();
-            comboBoxDepartment.SelectedIndex = 0;
+            //comboBoxDepartment.SelectedIndex = 0;
 
         }
 
