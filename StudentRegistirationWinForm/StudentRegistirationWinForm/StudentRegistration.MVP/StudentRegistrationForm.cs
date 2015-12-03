@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -30,6 +31,7 @@ namespace StudentRegistration.MVP
             this.MaximizeBox = false;
             LoadDefaults();
             LoadDepartments();
+            LoadInformation();
         }
         private void LoadDepartments()
         {
@@ -40,9 +42,53 @@ namespace StudentRegistration.MVP
         {
             rbtFullTime.Select();
             //comboBoxDepartment.SelectedIndex = 0;
+        }
+        private void LoadInformation()
+        {
+            string con, sql;
+            con = "Server=WEIQIN-PC\\SQLEXPRESS;Database=StudentRegistration;Trusted_Connection=SSPI";
+            sql = "Select * from tb_student";
+            SqlConnection mycon = new SqlConnection(con);
+            mycon.Open();
 
+            SqlDataAdapter mydata = new SqlDataAdapter(sql, con);
+            DataSet myds = new DataSet();
+            mydata.Fill(myds, "tb_student");
+            dataGridView1.DataSource = myds.Tables["tb_student"];
+
+            mycon.Close();
         }
 
 
+        private void btnNew_Click(object sender, EventArgs e)
+        {
+            //Dispose();
+            IView view = new NewStudentRegistrationForm();
+            IModel model = new Model();
+            var present = new Present(model, view);
+
+            present.ShowNewStudent();
+        }
+
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            //Dispose();
+            IView view = new EditStudentRegistrationForm();
+            IModel model = new Model();
+            var present = new Present(model, view);
+
+            present.ShowEditForm();
+        }
+
+        private void btnRemove_Click(object sender, EventArgs e)
+        {
+            //Dispose();
+            IView view = new RemoveStudentRegistration();
+            IModel model = new Model();
+            var present = new Present(model, view);
+
+            present.ShowRemoveForm();
+        }
     }
 }

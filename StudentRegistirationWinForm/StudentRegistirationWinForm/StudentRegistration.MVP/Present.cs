@@ -29,9 +29,37 @@ namespace StudentRegistration.MVP
             }
         }
 
+        public void ShowNewStudent() {
+            var form = view as NewStudentRegistrationForm;
+
+            if (form != null)
+            {
+                form.ShowDialog();
+            }
+        }
+
         public void ShowRegForm()
         {
             var form = view as StudentRegistrationForm;
+
+            if (form != null)
+            {
+                form.ShowDialog();
+            }
+        }
+        public void ShowEditForm()
+        {
+            var form = view as EditStudentRegistrationForm;
+
+            if (form != null)
+            {
+                form.ShowDialog();
+            }
+        }
+
+        public void ShowRemoveForm()
+        {
+            var form = view as RemoveStudentRegistration;
 
             if (form != null)
             {
