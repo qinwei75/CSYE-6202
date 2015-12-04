@@ -13,7 +13,7 @@ using System.Windows.Forms;
 namespace StudentRegistration.MVP
 {
     public partial class StudentRegLoginForm : Form, IStudentRegLogin
-    {
+    { 
         [DllImport("user32.dll", EntryPoint = "GetSystemMenu")] //API
         extern static System.IntPtr GetSystemMenu(System.IntPtr hWnd, System.IntPtr bRevert);
         [DllImport("user32.dll", EntryPoint = "RemoveMenu")]
