@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A486D6CB-2898-44A9-8FC3-721CD81F85D7}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{B239CCEE-78E4-4560-8E38-D46A5DB731C6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>StudentRegistration.MVP</RootNamespace>
-    <AssemblyName>StudentRegistration.MVP</AssemblyName>
+    <RootNamespace>StudentRegistrationWinForm</RootNamespace>
+    <AssemblyName>StudentRegistrationWinForm</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -49,61 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EditStudents.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EditStudents.Designer.cs">
-      <DependentUpon>EditStudents.cs</DependentUpon>
-    </Compile>
-    <Compile Include="IEditStudentRegistrationForm.cs" />
-    <Compile Include="IModel.cs" />
-    <Compile Include="INewStudentRegistrationForm.cs" />
-    <Compile Include="IRemoveStudentRegistrationForm.cs" />
-    <Compile Include="IStudentRegistrationForm.cs" />
-    <Compile Include="IStudentRegLogin.cs" />
-    <Compile Include="IView.cs" />
-    <Compile Include="Model.cs" />
-    <Compile Include="NewStudentRegistrationForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="NewStudentRegistrationForm.Designer.cs">
-      <DependentUpon>NewStudentRegistrationForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Present.cs" />
-    <Compile Include="RemoveStudentRegistration.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="RemoveStudentRegistration.Designer.cs">
-      <DependentUpon>RemoveStudentRegistration.cs</DependentUpon>
-    </Compile>
-    <Compile Include="StudentRegistrationForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="StudentRegistrationForm.Designer.cs">
-      <DependentUpon>StudentRegistrationForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="StudentRegLoginForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="StudentRegLoginForm.Designer.cs">
-      <DependentUpon>StudentRegLoginForm.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="EditStudents.resx">
-      <DependentUpon>EditStudents.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="NewStudentRegistrationForm.resx">
-      <DependentUpon>NewStudentRegistrationForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="RemoveStudentRegistration.resx">
-      <DependentUpon>RemoveStudentRegistration.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="StudentRegistrationForm.resx">
-      <DependentUpon>StudentRegistrationForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="StudentRegLoginForm.resx">
-      <DependentUpon>StudentRegLoginForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -130,6 +74,10 @@
     <ProjectReference Include="..\Business\Business.csproj">
       <Project>{5fa0ff55-d8ec-487f-9c3b-c20eca9927e2}</Project>
       <Name>Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StudentRegistration.MVP\StudentRegistration.MVP.csproj">
+      <Project>{a486d6cb-2898-44a9-8fc3-721cd81f85d7}</Project>
+      <Name>StudentRegistration.MVP</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

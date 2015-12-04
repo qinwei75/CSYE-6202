@@ -94,7 +94,7 @@ namespace StudentRegistration.MVP
                 }
                 //EditStudentRegistrationForm editForm = new EditStudentRegistrationForm();
                 //EditStudentRegistrationForm editForm = new EditStudentRegistrationForm(textBox2.Text.Trim(), textBox3.Text.Trim(), textBox4.Text.Trim(), comboBoxDepartment.SelectedItem, enrollmentType.Trim());
-                IView view = new EditStudentRegistrationForm(textBox2.Text.Trim(), textBox3.Text.Trim(), textBox4.Text.Trim(), comboBoxDepartment.SelectedItem, enrollmentType.Trim());
+                IView view = new EditStudents(textBox2.Text.Trim(), textBox3.Text.Trim(), textBox4.Text.Trim(), comboBoxDepartment.SelectedItem, enrollmentType.Trim());
                 IModel model = new Model();
                 var present = new Present(model, view);
                 

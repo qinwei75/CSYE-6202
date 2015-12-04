@@ -1,8 +1,6 @@
-﻿using System.Windows.Forms;
-
-namespace StudentRegistration.MVP
+﻿namespace StudentRegistration.MVP
 {
-    partial class EditStudentRegistrationForm
+    partial class EditStudents
     {
         /// <summary>
         /// Required designer variable.
@@ -50,20 +48,19 @@ namespace StudentRegistration.MVP
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(483, 291);
+            this.btnCancel.Location = new System.Drawing.Point(506, 299);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(115, 49);
-            this.btnCancel.TabIndex = 6;
+            this.btnCancel.TabIndex = 12;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(349, 291);
+            this.btnUpdate.Location = new System.Drawing.Point(372, 299);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(115, 49);
-            this.btnUpdate.TabIndex = 5;
+            this.btnUpdate.TabIndex = 11;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
@@ -79,15 +76,16 @@ namespace StudentRegistration.MVP
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.lblStudentID);
             this.groupBox1.Controls.Add(this.groupBox2);
-            this.groupBox1.Location = new System.Drawing.Point(5, 28);
+            this.groupBox1.Location = new System.Drawing.Point(20, 22);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(601, 231);
-            this.groupBox1.TabIndex = 4;
+            this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Student Info";
             // 
             // comboBoxDepartment
             // 
+            this.comboBoxDepartment.Enabled = false;
             this.comboBoxDepartment.FormattingEnabled = true;
             this.comboBoxDepartment.Location = new System.Drawing.Point(131, 182);
             this.comboBoxDepartment.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -99,7 +97,7 @@ namespace StudentRegistration.MVP
             // 
             this.textBox4.Location = new System.Drawing.Point(131, 135);
             this.textBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox4.MaxLength = 40;
+            this.textBox4.MaxLength = 50;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(191, 26);
             this.textBox4.TabIndex = 11;
@@ -108,7 +106,7 @@ namespace StudentRegistration.MVP
             // 
             this.textBox3.Location = new System.Drawing.Point(131, 85);
             this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox3.MaxLength = 40;
+            this.textBox3.MaxLength = 50;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(191, 26);
             this.textBox3.TabIndex = 10;
@@ -118,7 +116,7 @@ namespace StudentRegistration.MVP
             this.textBox2.Enabled = false;
             this.textBox2.Location = new System.Drawing.Point(131, 38);
             this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox2.MaxLength = 40;
+            this.textBox2.MaxLength = 50;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(191, 26);
             this.textBox2.TabIndex = 9;
@@ -173,6 +171,7 @@ namespace StudentRegistration.MVP
             // rbtPartTime
             // 
             this.rbtPartTime.AutoSize = true;
+            this.rbtPartTime.Enabled = false;
             this.rbtPartTime.Location = new System.Drawing.Point(154, 60);
             this.rbtPartTime.Name = "rbtPartTime";
             this.rbtPartTime.Size = new System.Drawing.Size(101, 24);
@@ -184,6 +183,7 @@ namespace StudentRegistration.MVP
             // rbtFullTime
             // 
             this.rbtFullTime.AutoSize = true;
+            this.rbtFullTime.Enabled = false;
             this.rbtFullTime.Location = new System.Drawing.Point(6, 60);
             this.rbtFullTime.Name = "rbtFullTime";
             this.rbtFullTime.Size = new System.Drawing.Size(97, 24);
@@ -192,16 +192,16 @@ namespace StudentRegistration.MVP
             this.rbtFullTime.Text = "Full Time";
             this.rbtFullTime.UseVisualStyleBackColor = true;
             // 
-            // EditStudentRegistrationForm
+            // EditStudents
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(610, 369);
+            this.ClientSize = new System.Drawing.Size(641, 370);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.groupBox1);
-            this.Name = "EditStudentRegistrationForm";
-            this.Text = "Edit Student Registration";
+            this.Name = "EditStudents";
+            this.Text = "EditStudents";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -226,6 +226,5 @@ namespace StudentRegistration.MVP
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.RadioButton rbtPartTime;
         private System.Windows.Forms.RadioButton rbtFullTime;
-
     }
 }
