@@ -43,10 +43,11 @@
             this.btnNew = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
             this.btnRemove = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.datagridStudentInformation = new System.Windows.Forms.DataGridView();
+            this.btnRefresh = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.datagridStudentInformation)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -69,6 +70,7 @@
             // 
             // comboBoxDepartment
             // 
+            this.comboBoxDepartment.Enabled = false;
             this.comboBoxDepartment.FormattingEnabled = true;
             this.comboBoxDepartment.Location = new System.Drawing.Point(131, 182);
             this.comboBoxDepartment.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -78,6 +80,7 @@
             // 
             // textBox4
             // 
+            this.textBox4.Enabled = false;
             this.textBox4.Location = new System.Drawing.Point(131, 135);
             this.textBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox4.Name = "textBox4";
@@ -86,6 +89,7 @@
             // 
             // textBox3
             // 
+            this.textBox3.Enabled = false;
             this.textBox3.Location = new System.Drawing.Point(131, 85);
             this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox3.Name = "textBox3";
@@ -94,6 +98,7 @@
             // 
             // textBox2
             // 
+            this.textBox2.Enabled = false;
             this.textBox2.Location = new System.Drawing.Point(131, 38);
             this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox2.Name = "textBox2";
@@ -150,6 +155,7 @@
             // rbtPartTime
             // 
             this.rbtPartTime.AutoSize = true;
+            this.rbtPartTime.Enabled = false;
             this.rbtPartTime.Location = new System.Drawing.Point(154, 60);
             this.rbtPartTime.Name = "rbtPartTime";
             this.rbtPartTime.Size = new System.Drawing.Size(101, 24);
@@ -161,6 +167,7 @@
             // rbtFullTime
             // 
             this.rbtFullTime.AutoSize = true;
+            this.rbtFullTime.Enabled = false;
             this.rbtFullTime.Location = new System.Drawing.Point(6, 60);
             this.rbtFullTime.Name = "rbtFullTime";
             this.rbtFullTime.Size = new System.Drawing.Size(97, 24);
@@ -199,21 +206,33 @@
             this.btnRemove.UseVisualStyleBackColor = true;
             this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
-            // dataGridView1
+            // datagridStudentInformation
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 278);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(601, 316);
-            this.dataGridView1.TabIndex = 4;
+            this.datagridStudentInformation.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.datagridStudentInformation.Location = new System.Drawing.Point(12, 278);
+            this.datagridStudentInformation.Name = "datagridStudentInformation";
+            this.datagridStudentInformation.RowTemplate.Height = 28;
+            this.datagridStudentInformation.Size = new System.Drawing.Size(601, 316);
+            this.datagridStudentInformation.TabIndex = 4;
+            this.datagridStudentInformation.SelectionChanged += new System.EventHandler(this.datagridStudentInformation_SelectionChanged);
+            // 
+            // btnRefresh
+            // 
+            this.btnRefresh.Location = new System.Drawing.Point(632, 278);
+            this.btnRefresh.Name = "btnRefresh";
+            this.btnRefresh.Size = new System.Drawing.Size(115, 49);
+            this.btnRefresh.TabIndex = 5;
+            this.btnRefresh.Text = "Refresh";
+            this.btnRefresh.UseVisualStyleBackColor = true;
+            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
             // StudentRegistrationForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(759, 619);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.btnRefresh);
+            this.Controls.Add(this.datagridStudentInformation);
             this.Controls.Add(this.btnRemove);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnNew);
@@ -224,7 +243,7 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.datagridStudentInformation)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -246,6 +265,7 @@
         private System.Windows.Forms.Button btnNew;
         private System.Windows.Forms.Button btnEdit;
         private System.Windows.Forms.Button btnRemove;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView datagridStudentInformation;
+        private System.Windows.Forms.Button btnRefresh;
     }
 }

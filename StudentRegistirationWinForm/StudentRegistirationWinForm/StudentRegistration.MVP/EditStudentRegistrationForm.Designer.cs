@@ -1,4 +1,6 @@
-﻿namespace StudentRegistration.MVP
+﻿using System.Windows.Forms;
+
+namespace StudentRegistration.MVP
 {
     partial class EditStudentRegistrationForm
     {
@@ -54,6 +56,7 @@
             this.btnCancel.TabIndex = 6;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnUpdate
             // 
@@ -63,6 +66,7 @@
             this.btnUpdate.TabIndex = 5;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // groupBox1
             // 
@@ -95,6 +99,7 @@
             // 
             this.textBox4.Location = new System.Drawing.Point(131, 135);
             this.textBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox4.MaxLength = 40;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(191, 26);
             this.textBox4.TabIndex = 11;
@@ -103,14 +108,17 @@
             // 
             this.textBox3.Location = new System.Drawing.Point(131, 85);
             this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox3.MaxLength = 40;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(191, 26);
             this.textBox3.TabIndex = 10;
             // 
             // textBox2
             // 
+            this.textBox2.Enabled = false;
             this.textBox2.Location = new System.Drawing.Point(131, 38);
             this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox2.MaxLength = 40;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(191, 26);
             this.textBox2.TabIndex = 9;
@@ -218,5 +226,6 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.RadioButton rbtPartTime;
         private System.Windows.Forms.RadioButton rbtFullTime;
+
     }
 }

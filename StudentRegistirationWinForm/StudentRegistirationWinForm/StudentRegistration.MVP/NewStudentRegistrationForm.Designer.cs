@@ -77,25 +77,31 @@
             // 
             this.textBox4.Location = new System.Drawing.Point(131, 135);
             this.textBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox4.MaxLength = 40;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(191, 26);
             this.textBox4.TabIndex = 11;
+            this.textBox4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox4_KeyPress);
             // 
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(131, 85);
             this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox3.MaxLength = 40;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(191, 26);
             this.textBox3.TabIndex = 10;
+            this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(131, 38);
             this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox2.MaxLength = 40;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(191, 26);
             this.textBox2.TabIndex = 9;
+            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
             // 
             // lblFirstName
             // 
@@ -168,21 +174,25 @@
             // 
             // btnAdd
             // 
+            this.btnAdd.Enabled = false;
             this.btnAdd.Location = new System.Drawing.Point(356, 275);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(115, 49);
             this.btnAdd.TabIndex = 2;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnReset
             // 
+            this.btnReset.Enabled = false;
             this.btnReset.Location = new System.Drawing.Point(490, 275);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(115, 49);
             this.btnReset.TabIndex = 3;
             this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // NewStudentRegistrationForm
             // 
