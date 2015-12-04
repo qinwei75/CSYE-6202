@@ -13,7 +13,7 @@ using System.Windows.Forms;
 namespace StudentRegistration.MVP
 {
     public partial class StudentRegLoginForm : Form, IStudentRegLogin
-    { 
+    {
         [DllImport("user32.dll", EntryPoint = "GetSystemMenu")] //API
         extern static System.IntPtr GetSystemMenu(System.IntPtr hWnd, System.IntPtr bRevert);
         [DllImport("user32.dll", EntryPoint = "RemoveMenu")]
@@ -21,7 +21,7 @@ namespace StudentRegistration.MVP
         static int MF_BYPOSITION = 0x400;
         static int MF_REMOVE = 0x1000;
 
-        int wrongcount = 0;
+        int lefttime = 3;
         public StudentRegLoginForm()
         {
             InitializeComponent();
@@ -58,10 +58,9 @@ namespace StudentRegistration.MVP
             }
             else
             {
-
-                wrongcount++;
-                int lefttime = 3 - wrongcount;
-                if (wrongcount >= 3)
+                lefttime--;
+                
+                if (lefttime <= 0)
                 {
                     Environment.Exit(1);
                 }

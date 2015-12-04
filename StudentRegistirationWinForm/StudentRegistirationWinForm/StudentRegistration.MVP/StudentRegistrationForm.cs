@@ -29,9 +29,12 @@ namespace StudentRegistration.MVP
             RemoveMenu(GetSystemMenu(Handle, IntPtr.Zero), 0, MF_BYPOSITION | MF_REMOVE);
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            LoadDefaults();
+            
             LoadDepartments();
             LoadInformation();
+            datagridStudentInformation.ReadOnly = true;
+            LoadDefaults();
+
         }
         private void LoadDepartments()
         {
@@ -41,7 +44,7 @@ namespace StudentRegistration.MVP
         private void LoadDefaults()
         {
             rbtFullTime.Select();
-            //comboBoxDepartment.SelectedIndex = 0;
+            comboBoxDepartment.SelectedIndex = 0;
         }
         private void LoadInformation()
         {
@@ -54,7 +57,7 @@ namespace StudentRegistration.MVP
             SqlDataAdapter mydata = new SqlDataAdapter(sql, con);
             DataSet myds = new DataSet();
             mydata.Fill(myds, "tb_student");
-            dataGridView1.DataSource = myds.Tables["tb_student"];
+            datagridStudentInformation.DataSource = myds.Tables["tb_student"];
 
             mycon.Close();
         }
@@ -62,7 +65,7 @@ namespace StudentRegistration.MVP
 
         private void btnNew_Click(object sender, EventArgs e)
         {
-            //Dispose();
+            Dispose();
             IView view = new NewStudentRegistrationForm();
             IModel model = new Model();
             var present = new Present(model, view);
@@ -73,22 +76,94 @@ namespace StudentRegistration.MVP
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            //Dispose();
-            IView view = new EditStudentRegistrationForm();
-            IModel model = new Model();
-            var present = new Present(model, view);
+            
+            if (textBox2.Text.Trim() == String.Empty) {
+                MessageBox.Show("Please select a student to Edit!!!!!!!!!");
+                return;
+            }
+            else
+            {
+                string enrollmentType = null;
+                if (rbtFullTime.Checked == true)
+                {
+                    enrollmentType = rbtFullTime.Text.Trim();
+                }
+                else if (rbtPartTime.Checked == true)
+                {
+                    enrollmentType = rbtPartTime.Text.Trim();
+                }
+                //EditStudentRegistrationForm editForm = new EditStudentRegistrationForm();
+                //EditStudentRegistrationForm editForm = new EditStudentRegistrationForm(textBox2.Text.Trim(), textBox3.Text.Trim(), textBox4.Text.Trim(), comboBoxDepartment.SelectedItem, enrollmentType.Trim());
+                IView view = new EditStudents(textBox2.Text.Trim(), textBox3.Text.Trim(), textBox4.Text.Trim(), comboBoxDepartment.SelectedItem, enrollmentType.Trim());
+                IModel model = new Model();
+                var present = new Present(model, view);
+                
+                this.Dispose();
+                present.ShowEditForm();
+                //editForm.Show();
 
-            present.ShowEditForm();
+            }
         }
 
         private void btnRemove_Click(object sender, EventArgs e)
         {
-            //Dispose();
-            IView view = new RemoveStudentRegistration();
-            IModel model = new Model();
-            var present = new Present(model, view);
+            
+            if (textBox2.Text.Trim() == String.Empty)
+            {
+                MessageBox.Show("Please select a student to Delete!!!!");
+                return;
+            }
+            else
+            {
+                
+                string enrollmentType = null;
+                if (rbtFullTime.Checked == true)
+                {
+                    enrollmentType = rbtFullTime.Text.Trim();
+                }
+                else if (rbtPartTime.Checked == true)
+                {
+                    enrollmentType = rbtPartTime.Text.Trim();
+                }
+                
+                //RemoveStudentRegistration removeForm = new RemoveStudentRegistration(textBox2.Text.Trim(), textBox3.Text.Trim(), textBox4.Text.Trim(), comboBoxDepartment.SelectedItem, enrollmentType.Trim());
+                IView view = new RemoveStudentRegistration(textBox2.Text.Trim(), textBox3.Text.Trim(), textBox4.Text.Trim(), comboBoxDepartment.SelectedItem, enrollmentType.Trim());
+                IModel model = new Model();
+                var present = new Present(model, view);
+                this.Dispose();
+                present.ShowRemoveForm();
+                
+                //removeForm.Show();
+            }
+        }
 
-            present.ShowRemoveForm();
+
+        private void datagridStudentInformation_SelectionChanged(object sender, EventArgs e)
+        {
+            foreach (DataGridViewRow row in datagridStudentInformation.SelectedRows)
+            {
+                textBox2.Text = row.Cells[0].Value.ToString();
+                textBox3.Text = row.Cells[1].Value.ToString();
+                textBox4.Text = row.Cells[2].Value.ToString();
+
+                comboBoxDepartment.SelectedItem = row.Cells[3].Value.ToString().Trim();
+
+                // enrollment type selection driven by the grid itself
+                string enrollmentType = row.Cells[4].Value.ToString().Trim();
+                if (rbtFullTime.Text.Trim() == enrollmentType)
+                {
+                    rbtFullTime.Checked = true;
+                }
+                else if (rbtPartTime.Text.Trim() == enrollmentType)
+                {
+                    rbtPartTime.Checked = true;
+                }
+            }
+        }
+
+        private void btnRefresh_Click(object sender, EventArgs e)
+        {
+            LoadInformation();
         }
     }
 }

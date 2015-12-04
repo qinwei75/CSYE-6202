@@ -49,7 +49,7 @@ namespace StudentRegistration.MVP
         }
         public void ShowEditForm()
         {
-            var form = view as EditStudentRegistrationForm;
+            var form = view as EditStudents;
 
             if (form != null)
             {
