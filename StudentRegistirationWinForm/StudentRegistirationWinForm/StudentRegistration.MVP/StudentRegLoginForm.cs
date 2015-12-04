@@ -21,7 +21,7 @@ namespace StudentRegistration.MVP
         static int MF_BYPOSITION = 0x400;
         static int MF_REMOVE = 0x1000;
 
-        int lefttime = 3;
+        int wrongcount = 0;
         public StudentRegLoginForm()
         {
             InitializeComponent();
@@ -58,9 +58,10 @@ namespace StudentRegistration.MVP
             }
             else
             {
-                lefttime--;
-                
-                if (lefttime <= 0)
+
+                wrongcount++;
+                int lefttime = 3 - wrongcount;
+                if (wrongcount >= 3)
                 {
                     Environment.Exit(1);
                 }

@@ -54,7 +54,6 @@
             this.btnCancel.TabIndex = 9;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnRemove
             // 
@@ -64,7 +63,6 @@
             this.btnRemove.TabIndex = 8;
             this.btnRemove.Text = "Remove";
             this.btnRemove.UseVisualStyleBackColor = true;
-            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
             // groupBox1
             // 
@@ -86,7 +84,6 @@
             // 
             // comboBoxDepartment
             // 
-            this.comboBoxDepartment.Enabled = false;
             this.comboBoxDepartment.FormattingEnabled = true;
             this.comboBoxDepartment.Location = new System.Drawing.Point(131, 182);
             this.comboBoxDepartment.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -96,7 +93,6 @@
             // 
             // textBox4
             // 
-            this.textBox4.Enabled = false;
             this.textBox4.Location = new System.Drawing.Point(131, 135);
             this.textBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox4.Name = "textBox4";
@@ -105,7 +101,6 @@
             // 
             // textBox3
             // 
-            this.textBox3.Enabled = false;
             this.textBox3.Location = new System.Drawing.Point(131, 85);
             this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox3.Name = "textBox3";
@@ -114,7 +109,6 @@
             // 
             // textBox2
             // 
-            this.textBox2.Enabled = false;
             this.textBox2.Location = new System.Drawing.Point(131, 38);
             this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox2.Name = "textBox2";
@@ -171,7 +165,6 @@
             // rbtPartTime
             // 
             this.rbtPartTime.AutoSize = true;
-            this.rbtPartTime.Enabled = false;
             this.rbtPartTime.Location = new System.Drawing.Point(154, 60);
             this.rbtPartTime.Name = "rbtPartTime";
             this.rbtPartTime.Size = new System.Drawing.Size(101, 24);
@@ -183,7 +176,6 @@
             // rbtFullTime
             // 
             this.rbtFullTime.AutoSize = true;
-            this.rbtFullTime.Enabled = false;
             this.rbtFullTime.Location = new System.Drawing.Point(6, 60);
             this.rbtFullTime.Name = "rbtFullTime";
             this.rbtFullTime.Size = new System.Drawing.Size(97, 24);
