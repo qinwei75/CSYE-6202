@@ -21,14 +21,16 @@
         <Label x:Name="label3" Content="First Name:" HorizontalAlignment="Left" Margin="64,100,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label" Content="Department:" HorizontalAlignment="Left" Margin="64,170,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label2" Content="StudentID:" HorizontalAlignment="Left" Margin="64,66,0,0" VerticalAlignment="Top"/>
-        <ComboBox x:Name="comboBoxDepartment" HorizontalAlignment="Left" Margin="156,173,0,0" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="156,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="23" Margin="156,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="23" Margin="156,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="comboBoxDepartment" HorizontalAlignment="Left" Margin="156,173,0,0" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="156,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="23" Margin="156,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="23" Margin="156,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
         <GroupBox x:Name="groupBox1" Header="Enrollment Type" HorizontalAlignment="Left" Margin="327,66,-35,0" VerticalAlignment="Top" Height="132" Width="197">
-            <RadioButton x:Name="rbtPartTime" Content="Part Time" HorizontalAlignment="Left" Margin="112,47,-1.667,0" VerticalAlignment="Top" GroupName="EnrollType"/>
+            <RadioButton x:Name="rbtPartTime" Content="Part Time" HorizontalAlignment="Left" Margin="112,47,-1.667,0" VerticalAlignment="Top" GroupName="EnrollType" IsEnabled="False"/>
         </GroupBox>
-        <RadioButton x:Name="rbtFullTime" Content="Full Time" HorizontalAlignment="Left" Margin="341,133,0,0" VerticalAlignment="Top" GroupName="EnrollType"/>
+        <RadioButton x:Name="rbtFullTime" Content="Full Time" HorizontalAlignment="Left" Margin="341,133,0,0" VerticalAlignment="Top" GroupName="EnrollType" IsEnabled="False"/>
+        <Button x:Name="button" Content="Cancel" HorizontalAlignment="Left" Margin="466,283,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <Button x:Name="button1" Content="Delete" HorizontalAlignment="Left" Margin="361,283,0,0" VerticalAlignment="Top" Width="75" Click="button1_Click"/>
 
     </Grid>
 </Window>

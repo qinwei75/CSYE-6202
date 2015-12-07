@@ -51,9 +51,10 @@ namespace StudentRegistrationWPF
                 
                 StudentList sl = new StudentList();
                 StudentInfoRandom.Randomizer(sl);
-                this.Hide();
+                
                 StudentRegWindow view = new StudentRegWindow(sl);
                 view.Show();
+                this.Close();
 
             }
             else

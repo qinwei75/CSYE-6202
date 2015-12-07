@@ -26,12 +26,16 @@ namespace StudentRegistrationWPF
         {
             InitializeComponent();
             loadDepartment();
+            LoadDefaults();
             this.studentList = studentList;
+        }
+        private void LoadDefaults()
+        {
+            rbtFullTime.IsChecked = true;
+            comboBoxDepartment.SelectedIndex = 0;
         }
 
         private void loadDepartment() {
-            
-            comboBoxDepartment.Items.Add("");
             comboBoxDepartment.Items.Add("Information Systems");
             comboBoxDepartment.Items.Add("International Affairs");
             comboBoxDepartment.Items.Add("Nursing");
@@ -39,8 +43,6 @@ namespace StudentRegistrationWPF
             comboBoxDepartment.Items.Add("Professional Studies");
             comboBoxDepartment.Items.Add("Psychology");
             comboBoxDepartment.Items.Add("Public Administration");
-            comboBoxDepartment.SelectedIndex = 0;
-            populateTable();
         }
         public void populateTable() {
             try
@@ -54,23 +56,40 @@ namespace StudentRegistrationWPF
         }
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            NewWPF newWPF = new NewWPF();
-            this.Close();
+            NewWPF newWPF = new NewWPF(studentList);
             newWPF.Show();
+            this.Close();
         }
 
         private void btnRemove_Click_1(object sender, RoutedEventArgs e)
         {
-            RemoveWPF removeWPF = new RemoveWPF();
-            this.Close();
-            removeWPF.Show();
+            if (textBox2.Text.ToString().Trim() == "")
+            {
+                MessageBox.Show("Please Select one Student");
+                return;
+            }
+            else
+            {
+                Student selectedstudent = (Student)this.StudentInforTable.SelectedItem;
+                RemoveWPF removeWPF = new RemoveWPF(selectedstudent, studentList);
+                removeWPF.Show();
+                this.Close();
+            }
         }
 
         private void btnEdit_Click(object sender, RoutedEventArgs e)
         {
-            EditWPF editWPF = new EditWPF();
-            this.Close();
-            editWPF.Show();
+            if (textBox2.Text.ToString().Trim() == "") {
+                MessageBox.Show("Please Select one Student");
+                return;
+            } else
+            {
+                Student selectedstudent = (Student)this.StudentInforTable.SelectedItem;
+                EditWPF editWPF = new EditWPF(selectedstudent, studentList);
+                editWPF.Show();
+                this.Close();
+            }
+
         }
 
         private void table_SelectionChanged(object sender, SelectionChangedEventArgs e)

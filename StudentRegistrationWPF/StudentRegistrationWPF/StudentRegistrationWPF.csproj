@@ -58,9 +58,6 @@
     <Compile Include="RemoveWPF.xaml.cs">
       <DependentUpon>RemoveWPF.xaml</DependentUpon>
     </Compile>
-    <Compile Include="StudentRegistrationWindow.xaml.cs">
-      <DependentUpon>StudentRegistrationWindow.xaml</DependentUpon>
-    </Compile>
     <Compile Include="StudentRegWindow.xaml.cs">
       <DependentUpon>StudentRegWindow.xaml</DependentUpon>
     </Compile>
@@ -93,10 +90,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="RemoveWPF.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="StudentRegistrationWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
