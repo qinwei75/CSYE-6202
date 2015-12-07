@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Business;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
@@ -47,8 +48,11 @@ namespace StudentRegistrationWPF
             SqlDataReader dataReader = cmd.ExecuteReader();
             if (dataReader.HasRows == true)
             {
+                
+                StudentList sl = new StudentList();
+                StudentInfoRandom.Randomizer(sl);
                 this.Hide();
-                StudentRegistrationWindow view = new StudentRegistrationWindow();
+                StudentRegWindow view = new StudentRegWindow(sl);
                 view.Show();
 
             }

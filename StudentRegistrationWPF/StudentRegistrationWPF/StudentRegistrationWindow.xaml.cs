@@ -50,7 +50,7 @@ namespace StudentRegistrationWPF
         private void LoadDepartments()
         {
             //comboBoxDepartment.Items.Add("");
-            comboBoxDepartment.Items.Add("Information Systems");
+            //comboBoxDepartment.Items.Add("Information Systems");
             //comboBoxDepartment.Items.Add("International Affairs");
             //comboBoxDepartment.Items.Add("Nursing");
             //comboBoxDepartment.Items.Add("Pharmacy");
@@ -100,7 +100,8 @@ namespace StudentRegistrationWPF
 
         private void btnNew_Click(object sender, EventArgs e)
         {
-
+            NewWPF newWPF = new NewWPF();
+            newWPF.Show();
         }
 
 
@@ -135,30 +136,31 @@ namespace StudentRegistrationWPF
         private void btnRemove_Click(object sender, EventArgs e)
         {
 
-            if (textBox2.Text.Trim() == String.Empty)
-            {
-                MessageBox.Show("Please select a student to Delete!!!!");
-                return;
-            }
-            else
-            {
+            //if (textBox2.Text.Trim() == String.Empty)
+            //{
+            //    MessageBox.Show("Please select a student to Delete!!!!");
+            //    return;
+            //}
+            //else
+            //{
 
-                string enrollmentType = null;
-                if (rbtFullTime.IsChecked == true)
-                {
-                    enrollmentType = rbtFullTime.Name.ToString().Trim();
-                }
-                else if (rbtPartTime.IsChecked == true)
-                {
-                    enrollmentType = rbtPartTime.Name.ToString().Trim();
-                }
+                //string enrollmentType = null;
+                //if (rbtFullTime.IsChecked == true)
+                //{
+                //    enrollmentType = rbtFullTime.Name.ToString().Trim();
+                //}
+                //else if (rbtPartTime.IsChecked == true)
+                //{
+                //    enrollmentType = rbtPartTime.Name.ToString().Trim();
+                //}
 
                 //RemoveStudentRegistration removeForm = new RemoveStudentRegistration(textBox2.Text.Trim(), textBox3.Text.Trim(), textBox4.Text.Trim(), comboBoxDepartment.SelectedItem, enrollmentType.Trim());
-                RemoveWPF removeForm = new RemoveWPF(textBox2.Text.Trim(), textBox3.Text.Trim(), textBox4.Text.Trim(), comboBoxDepartment.SelectedItem, enrollmentType.Trim());
+                //RemoveWPF removeForm = new RemoveWPF(textBox2.Text.Trim(), textBox3.Text.Trim(), textBox4.Text.Trim(), comboBoxDepartment.SelectedItem, enrollmentType.Trim());
+                RemoveWPF removeForm1 = new RemoveWPF();
 
-                removeForm.Show();
+            removeForm1.Show();
             }
-        }
+        //}
 
 
         private void datagridStudentInformation_SelectionChanged(object sender, EventArgs e)
@@ -189,6 +191,25 @@ namespace StudentRegistrationWPF
         {
             GetData();
         }
+        private void btnRefresh_Click_1(object sender, EventArgs e)
+        {
+            GetData();
+        }
 
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            NewWPF newWPF = new NewWPF();
+            newWPF.Show();
+        }
+
+        private void btnRemove_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnEdit_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

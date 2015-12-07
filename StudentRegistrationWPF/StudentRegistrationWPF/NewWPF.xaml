@@ -5,8 +5,33 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StudentRegistrationWPF"
         mc:Ignorable="d"
-        Title="NewWPF" Height="300" Width="300">
+        Title="NewWPF" Height="395.238" Width="589.796">
     <Grid>
-        
+        <GroupBox x:Name="groupBox" Header="Student Info" HorizontalAlignment="Left" Margin="32,26,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="210" Width="519">
+            <GroupBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.14"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </GroupBox.RenderTransform>
+        </GroupBox>
+        <Label x:Name="label1" Content="Last Name:" HorizontalAlignment="Left" Margin="64,136,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="First Name:" HorizontalAlignment="Left" Margin="64,100,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label" Content="Department:" HorizontalAlignment="Left" Margin="64,170,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="StudentID:" HorizontalAlignment="Left" Margin="64,66,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="comboBoxDepartment" HorizontalAlignment="Left" Margin="156,173,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="156,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="23" Margin="156,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="23" Margin="156,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <GroupBox x:Name="groupBox1" Header="Enrollment Type" HorizontalAlignment="Left" Margin="327,66,0,0" VerticalAlignment="Top" Height="132" Width="197">
+            <RadioButton x:Name="rbtPartTime" Content="Part Time" HorizontalAlignment="Left" Margin="112,47,-1.667,0" VerticalAlignment="Top" GroupName="EnrollType"/>
+        </GroupBox>
+        <RadioButton x:Name="rbtFullTime" Content="Full Time" HorizontalAlignment="Left" Margin="341,133,0,0" VerticalAlignment="Top" GroupName="EnrollType"/>
+        <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Left" Margin="201,290,0,0" VerticalAlignment="Top" Width="75" Click="btnAdd_Click"/>
+        <Button x:Name="btnReset" Content="Reset" HorizontalAlignment="Left" Margin="327,290,0,0" VerticalAlignment="Top" Width="75" Click="button_Copy_Click"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="449,290,0,0" VerticalAlignment="Top" Width="75" Click="btnCancel_Click"/>
+
     </Grid>
 </Window>

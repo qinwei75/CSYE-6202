@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Business;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +20,27 @@ namespace StudentRegistrationWPF
     /// </summary>
     public partial class NewWPF : Window
     {
+        StudentList studentList;
         public NewWPF()
         {
             InitializeComponent();
+        }
+
+        private void button_Copy_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnAdd_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnCancel_Click(object sender, RoutedEventArgs e)
+        {
+            NewWPF newWPF = new NewWPF();
+            this.Close();
+            newWPF.Show();
         }
     }
 }

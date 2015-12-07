@@ -24,21 +24,21 @@ namespace StudentRegistrationWPF
             InitializeComponent();
         }
 
-        public RemoveWPF(string studentID, string firstName, string lastName, object department, string enrollmentType)
-            : this()
-        {
-            textBox2.Text = studentID;
-            textBox3.Text = firstName;
-            textBox4.Text = lastName;
-            comboBoxDepartment.SelectedItem = department;
-            if (rbtFullTime.Name.ToString().Trim() == enrollmentType)
-            {
-                rbtFullTime.IsChecked = true;
-            }
-            else if (rbtPartTime.Name.ToString().Trim() == enrollmentType)
-            {
-                rbtPartTime.IsChecked = true;
-            }
-        }
+        //public RemoveWPF(string studentID, string firstName, string lastName, object department, string enrollmentType)
+        //    : this()
+        //{
+        //    textBox2.Text = studentID;
+        //    textBox3.Text = firstName;
+        //    textBox4.Text = lastName;
+        //    comboBoxDepartment.SelectedItem = department;
+        //    if (rbtFullTime.Name.ToString().Trim() == enrollmentType)
+        //    {
+        //        rbtFullTime.IsChecked = true;
+        //    }
+        //    else if (rbtPartTime.Name.ToString().Trim() == enrollmentType)
+        //    {
+        //        rbtPartTime.IsChecked = true;
+        //    }
+        //}
     }
 }
