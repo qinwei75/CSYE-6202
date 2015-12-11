@@ -1,0 +1,9 @@
+D:\NEU\CSYE6202\FinalProject\ClinicApplicationSln\ClinicBusiness\bin\Debug\ClinicBusiness.dll
+D:\NEU\CSYE6202\FinalProject\ClinicApplicationSln\ClinicBusiness\bin\Debug\ClinicBusiness.pdb
+D:\NEU\CSYE6202\FinalProject\ClinicApplicationSln\ClinicBusiness\obj\Debug\ClinicBusiness.dll
+D:\NEU\CSYE6202\FinalProject\ClinicApplicationSln\ClinicBusiness\obj\Debug\ClinicBusiness.pdb
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\ClinicBusiness\bin\Debug\ClinicBusiness.dll
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\ClinicBusiness\bin\Debug\ClinicBusiness.pdb
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\ClinicBusiness\obj\Debug\Clinic.Business.csprojResolveAssemblyReference.cache
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\ClinicBusiness\obj\Debug\ClinicBusiness.dll
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\ClinicBusiness\obj\Debug\ClinicBusiness.pdb

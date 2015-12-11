@@ -1,0 +1,18 @@
+D:\NEU\CSYE6202\FinalProject\ClinicApplicationSln\Clinic.Test\bin\Debug\Clinic.Test.dll
+D:\NEU\CSYE6202\FinalProject\ClinicApplicationSln\Clinic.Test\bin\Debug\Clinic.Test.pdb
+D:\NEU\CSYE6202\FinalProject\ClinicApplicationSln\Clinic.Test\bin\Debug\ClinicBusiness.dll
+D:\NEU\CSYE6202\FinalProject\ClinicApplicationSln\Clinic.Test\bin\Debug\nunit.framework.dll
+D:\NEU\CSYE6202\FinalProject\ClinicApplicationSln\Clinic.Test\bin\Debug\ClinicBusiness.pdb
+D:\NEU\CSYE6202\FinalProject\ClinicApplicationSln\Clinic.Test\bin\Debug\nunit.framework.xml
+D:\NEU\CSYE6202\FinalProject\ClinicApplicationSln\Clinic.Test\obj\Debug\Clinic.Test.csprojResolveAssemblyReference.cache
+D:\NEU\CSYE6202\FinalProject\ClinicApplicationSln\Clinic.Test\obj\Debug\Clinic.Test.dll
+D:\NEU\CSYE6202\FinalProject\ClinicApplicationSln\Clinic.Test\obj\Debug\Clinic.Test.pdb
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\Clinic.Test\obj\Debug\Clinic.Test.csprojResolveAssemblyReference.cache
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\Clinic.Test\obj\Debug\Clinic.Test.dll
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\Clinic.Test\obj\Debug\Clinic.Test.pdb
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\Clinic.Test\bin\Debug\Clinic.Test.dll
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\Clinic.Test\bin\Debug\Clinic.Test.pdb
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\Clinic.Test\bin\Debug\ClinicBusiness.dll
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\Clinic.Test\bin\Debug\nunit.framework.dll
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\Clinic.Test\bin\Debug\ClinicBusiness.pdb
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\Clinic.Test\bin\Debug\nunit.framework.xml

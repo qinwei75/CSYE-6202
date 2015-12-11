@@ -1,0 +1,7 @@
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\Clinic.DAL\bin\Debug\Clinic.DAL.dll
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\Clinic.DAL\bin\Debug\Clinic.DAL.pdb
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\Clinic.DAL\bin\Debug\ClinicBusiness.dll
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\Clinic.DAL\bin\Debug\ClinicBusiness.pdb
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\Clinic.DAL\obj\Debug\Clinic.DAL.csprojResolveAssemblyReference.cache
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\Clinic.DAL\obj\Debug\Clinic.DAL.dll
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\Clinic.DAL\obj\Debug\Clinic.DAL.pdb

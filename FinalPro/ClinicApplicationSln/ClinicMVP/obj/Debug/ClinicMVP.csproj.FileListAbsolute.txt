@@ -1,0 +1,2 @@
+D:\NEU\CSYE6202\Lab\Unittest\ClinicApplicationSln\ClinicMVP\bin\Debug\ClinicMVP.exe.config
+D:\NEU\CSYE6202\FinalProject\ClinicApplicationSln\ClinicMVP\bin\Debug\ClinicMVP.exe.config

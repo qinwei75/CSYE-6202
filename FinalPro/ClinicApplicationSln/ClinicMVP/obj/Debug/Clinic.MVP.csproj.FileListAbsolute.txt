@@ -1,0 +1,23 @@
+D:\NEU\CSYE6202\Final1\ClinicApplicationSln\Clinic.MVP\obj\Debug\Clinic.MVP.csprojResolveAssemblyReference.cache
+D:\NEU\CSYE6202\Final1\ClinicApplicationSln\Clinic.MVP\obj\Debug\ClinicMVP.frmAdminSetting.resources
+D:\NEU\CSYE6202\Final1\ClinicApplicationSln\Clinic.MVP\obj\Debug\ClinicMVP.frmCancelAppointment.resources
+D:\NEU\CSYE6202\Final1\ClinicApplicationSln\Clinic.MVP\obj\Debug\ClinicMVP.frmClinicHomePage.resources
+D:\NEU\CSYE6202\Final1\ClinicApplicationSln\Clinic.MVP\obj\Debug\ClinicMVP.frmLoginPage.resources
+D:\NEU\CSYE6202\Final1\ClinicApplicationSln\Clinic.MVP\obj\Debug\ClinicMVP.frmMakeAppointment.resources
+D:\NEU\CSYE6202\Final1\ClinicApplicationSln\Clinic.MVP\obj\Debug\Clinic.MVP.csproj.GenerateResource.Cache
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\ClinicMVP\obj\Debug\ClinicMVP.exe
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\ClinicMVP\obj\Debug\ClinicMVP.pdb
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\ClinicMVP\bin\Debug\ClinicMVP.exe
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\ClinicMVP\bin\Debug\ClinicMVP.pdb
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\ClinicMVP\bin\Debug\Clinic.DAL.dll
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\ClinicMVP\bin\Debug\ClinicBusiness.dll
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\ClinicMVP\bin\Debug\Clinic.DAL.pdb
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\ClinicMVP\bin\Debug\ClinicBusiness.pdb
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\ClinicMVP\obj\Debug\Clinic.MVP.csprojResolveAssemblyReference.cache
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\ClinicMVP\obj\Debug\ClinicMVP.frmCancelAppointment.resources
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\ClinicMVP\obj\Debug\ClinicMVP.frmAdminSetting.resources
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\ClinicMVP\obj\Debug\ClinicMVP.frmClinicHomePage.resources
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\ClinicMVP\obj\Debug\ClinicMVP.frmLoginPage.resources
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\ClinicMVP\obj\Debug\ClinicMVP.frmMakeAppointment.resources
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\ClinicMVP\obj\Debug\ClinicMVP.Properties.Resources.resources
+D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\ClinicMVP\obj\Debug\Clinic.MVP.csproj.GenerateResource.Cache
