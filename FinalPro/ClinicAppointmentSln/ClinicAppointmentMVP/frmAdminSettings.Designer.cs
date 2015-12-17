@@ -46,7 +46,7 @@
             // 
             // btnBack
             // 
-            this.btnBack.Location = new System.Drawing.Point(12, 295);
+            this.btnBack.Location = new System.Drawing.Point(12, 115);
             this.btnBack.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(202, 32);
@@ -70,7 +70,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(633, 338);
+            this.ClientSize = new System.Drawing.Size(296, 188);
             this.Controls.Add(this.btnEditReason);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnProfessional);

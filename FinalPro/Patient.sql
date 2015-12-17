@@ -1,11 +1,7 @@
 USE [Clinic]
 GO
 
-/****** Object:  Table [dbo].[tb_Patient]    Script Date: 12/11/2015 1:41:38 AM ******/
-DROP TABLE [dbo].[tb_Patient]
-GO
-
-/****** Object:  Table [dbo].[tb_Patient]    Script Date: 12/11/2015 1:41:38 AM ******/
+/****** Object:  Table [dbo].[tb_Patient]    Script Date: 12/17/2015 10:43:36 AM ******/
 SET ANSI_NULLS ON
 GO
 

@@ -172,11 +172,11 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(16, 33);
+            this.label7.Location = new System.Drawing.Point(5, 33);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(73, 17);
+            this.label7.Size = new System.Drawing.Size(96, 17);
             this.label7.TabIndex = 28;
-            this.label7.Text = "Patient ID:";
+            this.label7.Text = "Profession ID:";
             // 
             // txtProID
             // 

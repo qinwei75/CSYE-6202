@@ -1,11 +1,7 @@
 USE [Clinic]
 GO
 
-/****** Object:  Table [dbo].[tb_Profession]    Script Date: 12/11/2015 1:46:21 AM ******/
-DROP TABLE [dbo].[tb_Profession]
-GO
-
-/****** Object:  Table [dbo].[tb_Profession]    Script Date: 12/11/2015 1:46:21 AM ******/
+/****** Object:  Table [dbo].[tb_Professional]    Script Date: 12/17/2015 10:44:05 AM ******/
 SET ANSI_NULLS ON
 GO
 
@@ -17,7 +13,8 @@ CREATE TABLE [dbo].[tb_Professional](
 	[LastName] [nvarchar](10) NOT NULL,
 	[DOB] [date] NOT NULL,
 	[ProfessionalID] [nvarchar](20) NOT NULL,
-	[Type] [nvarchar](20) NOT NULL
+	[Profession] [nvarchar](20) NOT NULL,
+	[Active] [nvarchar](20) NOT NULL,
  CONSTRAINT [PK_tb_Professional] PRIMARY KEY CLUSTERED 
 (
 	[ProfessionalID] ASC

@@ -1,11 +1,7 @@
 USE [Clinic]
 GO
 
-/****** Object:  Table [dbo].[tb_VisitReason]    Script Date: 12/11/2015 11:13:28 AM ******/
-DROP TABLE [dbo].[tb_VisitReason]
-GO
-
-/****** Object:  Table [dbo].[tb_VisitReason]    Script Date: 12/11/2015 11:13:28 AM ******/
+/****** Object:  Table [dbo].[tb_VisitReason]    Script Date: 12/17/2015 10:45:02 AM ******/
 SET ANSI_NULLS ON
 GO
 
@@ -16,9 +12,9 @@ SET ANSI_PADDING ON
 GO
 
 CREATE TABLE [dbo].[tb_VisitReason](
-	[ReasonID] int NOT NULL,
-	[Reason] [varchar](50) NOT NULL,
-	[Cost] [int] NOT NULL,
+	[ReasonID] [varchar](20) NOT NULL,
+	[Reason] [varchar](50) NULL,
+	[Cost] [int] NULL,
  CONSTRAINT [PK_VisitReason] PRIMARY KEY CLUSTERED 
 (
 	[ReasonID] ASC

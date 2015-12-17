@@ -1,7 +1,7 @@
 USE [Clinic]
 GO
 
-/****** Object:  Table [dbo].[tb_UserAccount]    Script Date: 12/11/2015 1:48:58 AM ******/
+/****** Object:  Table [dbo].[tb_UserAccount]    Script Date: 12/17/2015 10:44:25 AM ******/
 SET ANSI_NULLS ON
 GO
 

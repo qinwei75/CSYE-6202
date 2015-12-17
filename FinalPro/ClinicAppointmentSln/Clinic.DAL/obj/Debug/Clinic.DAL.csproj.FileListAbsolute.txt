@@ -5,3 +5,10 @@ D:\NEU\CSYE6202Final\ClinicAppointmentSln\Clinic.DAL\bin\Debug\Business.pdb
 D:\NEU\CSYE6202Final\ClinicAppointmentSln\Clinic.DAL\obj\Debug\Clinic.DAL.csprojResolveAssemblyReference.cache
 D:\NEU\CSYE6202Final\ClinicAppointmentSln\Clinic.DAL\obj\Debug\Clinic.DAL.dll
 D:\NEU\CSYE6202Final\ClinicAppointmentSln\Clinic.DAL\obj\Debug\Clinic.DAL.pdb
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FinalPro\ClinicAppointmentSln\Clinic.DAL\bin\Debug\Clinic.DAL.dll
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FinalPro\ClinicAppointmentSln\Clinic.DAL\bin\Debug\Clinic.DAL.pdb
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FinalPro\ClinicAppointmentSln\Clinic.DAL\bin\Debug\Business.dll
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FinalPro\ClinicAppointmentSln\Clinic.DAL\bin\Debug\Business.pdb
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FinalPro\ClinicAppointmentSln\Clinic.DAL\obj\Debug\Clinic.DAL.csprojResolveAssemblyReference.cache
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FinalPro\ClinicAppointmentSln\Clinic.DAL\obj\Debug\Clinic.DAL.dll
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FinalPro\ClinicAppointmentSln\Clinic.DAL\obj\Debug\Clinic.DAL.pdb

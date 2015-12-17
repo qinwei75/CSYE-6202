@@ -19,8 +19,6 @@ D:\NEU\CSYE6202Final\ClinicAppointmentSln\ClinicAppointmentMVP\obj\Debug\ClinicA
 D:\NEU\CSYE6202Final\ClinicAppointmentSln\ClinicAppointmentMVP\obj\Debug\ClinicAppointment.MVP.frmProfessionalEdit.resources
 D:\NEU\CSYE6202Final\ClinicAppointmentSln\ClinicAppointmentMVP\obj\Debug\ClinicAppointment.MVP.frmVisitReasonEdit.resources
 D:\NEU\CSYE6202\Assignments\WQ_Assignments\FinalPro\ClinicAppointmentSln\ClinicAppointmentMVP\bin\Debug\ClinicAppointment.MVP.exe.config
-D:\NEU\CSYE6202\Assignments\WQ_Assignments\FinalPro\ClinicAppointmentSln\ClinicAppointmentMVP\obj\Debug\ClinicAppointment.MVP.exe
-D:\NEU\CSYE6202\Assignments\WQ_Assignments\FinalPro\ClinicAppointmentSln\ClinicAppointmentMVP\obj\Debug\ClinicAppointment.MVP.pdb
 D:\NEU\CSYE6202\Assignments\WQ_Assignments\FinalPro\ClinicAppointmentSln\ClinicAppointmentMVP\bin\Debug\ClinicAppointment.MVP.exe
 D:\NEU\CSYE6202\Assignments\WQ_Assignments\FinalPro\ClinicAppointmentSln\ClinicAppointmentMVP\bin\Debug\ClinicAppointment.MVP.pdb
 D:\NEU\CSYE6202\Assignments\WQ_Assignments\FinalPro\ClinicAppointmentSln\ClinicAppointmentMVP\bin\Debug\Business.dll
@@ -38,3 +36,5 @@ D:\NEU\CSYE6202\Assignments\WQ_Assignments\FinalPro\ClinicAppointmentSln\ClinicA
 D:\NEU\CSYE6202\Assignments\WQ_Assignments\FinalPro\ClinicAppointmentSln\ClinicAppointmentMVP\obj\Debug\ClinicAppointment.MVP.frmVisitReasonEdit.resources
 D:\NEU\CSYE6202\Assignments\WQ_Assignments\FinalPro\ClinicAppointmentSln\ClinicAppointmentMVP\obj\Debug\ClinicAppointment.MVP.Properties.Resources.resources
 D:\NEU\CSYE6202\Assignments\WQ_Assignments\FinalPro\ClinicAppointmentSln\ClinicAppointmentMVP\obj\Debug\ClinicAppointment.MVP.csproj.GenerateResource.Cache
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FinalPro\ClinicAppointmentSln\ClinicAppointmentMVP\obj\Debug\ClinicAppointment.MVP.exe
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FinalPro\ClinicAppointmentSln\ClinicAppointmentMVP\obj\Debug\ClinicAppointment.MVP.pdb
