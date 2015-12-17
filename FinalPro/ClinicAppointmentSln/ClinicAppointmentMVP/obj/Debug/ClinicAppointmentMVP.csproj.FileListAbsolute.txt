@@ -1,0 +1,5 @@
+D:\NEU\CSYE6202Final\ClinicAppointmentSln\ClinicAppointmentMVP\bin\Debug\ClinicAppointmentMVP.exe.config
+D:\NEU\CSYE6202Final\ClinicAppointmentSln\ClinicAppointmentMVP\obj\Debug\ClinicAppointmentMVP.csprojResolveAssemblyReference.cache
+D:\NEU\CSYE6202Final\ClinicAppointmentSln\ClinicAppointmentMVP\obj\Debug\ClinicAppointmentMVP.frmLoginPage.resources
+D:\NEU\CSYE6202Final\ClinicAppointmentSln\ClinicAppointmentMVP\obj\Debug\ClinicAppointmentMVP.Properties.Resources.resources
+D:\NEU\CSYE6202Final\ClinicAppointmentSln\ClinicAppointmentMVP\obj\Debug\ClinicAppointmentMVP.csproj.GenerateResource.Cache

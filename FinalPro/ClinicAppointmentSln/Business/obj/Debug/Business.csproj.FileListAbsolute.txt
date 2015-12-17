@@ -1,0 +1,5 @@
+D:\NEU\CSYE6202Final\ClinicAppointmentSln\Business\bin\Debug\Business.dll
+D:\NEU\CSYE6202Final\ClinicAppointmentSln\Business\bin\Debug\Business.pdb
+D:\NEU\CSYE6202Final\ClinicAppointmentSln\Business\obj\Debug\Business.dll
+D:\NEU\CSYE6202Final\ClinicAppointmentSln\Business\obj\Debug\Business.pdb
+D:\NEU\CSYE6202Final\ClinicAppointmentSln\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
