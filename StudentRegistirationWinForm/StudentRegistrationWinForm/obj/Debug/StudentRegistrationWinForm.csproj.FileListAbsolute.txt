@@ -1,0 +1,12 @@
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\StudentRegistrationWinForm\bin\Debug\StudentRegistrationWinForm.exe.config
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\StudentRegistrationWinForm\bin\Debug\StudentRegistrationWinForm.exe
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\StudentRegistrationWinForm\bin\Debug\StudentRegistrationWinForm.pdb
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\StudentRegistrationWinForm\bin\Debug\Business.dll
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\StudentRegistrationWinForm\bin\Debug\StudentRegistration.MVP.dll
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\StudentRegistrationWinForm\bin\Debug\Business.pdb
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\StudentRegistrationWinForm\bin\Debug\StudentRegistration.MVP.pdb
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\StudentRegistrationWinForm\obj\Debug\StudentRegistrationWinForm.csprojResolveAssemblyReference.cache
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\StudentRegistrationWinForm\obj\Debug\StudentRegistrationWinForm.Properties.Resources.resources
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\StudentRegistrationWinForm\obj\Debug\StudentRegistrationWinForm.csproj.GenerateResource.Cache
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\StudentRegistrationWinForm\obj\Debug\StudentRegistrationWinForm.exe
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\StudentRegistrationWinForm\obj\Debug\StudentRegistrationWinForm.pdb

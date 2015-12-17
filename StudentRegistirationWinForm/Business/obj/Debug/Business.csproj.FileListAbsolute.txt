@@ -1,0 +1,4 @@
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\Business\bin\Debug\Business.dll
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\Business\bin\Debug\Business.pdb
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\Business\obj\Debug\Business.dll
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\Business\obj\Debug\Business.pdb

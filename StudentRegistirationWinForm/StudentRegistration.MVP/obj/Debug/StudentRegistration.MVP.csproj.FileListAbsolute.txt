@@ -1,0 +1,15 @@
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\StudentRegistration.MVP\bin\Debug\StudentRegistration.MVP.dll.config
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\StudentRegistration.MVP\bin\Debug\StudentRegistration.MVP.dll
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\StudentRegistration.MVP\bin\Debug\StudentRegistration.MVP.pdb
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\StudentRegistration.MVP\bin\Debug\Business.dll
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\StudentRegistration.MVP\bin\Debug\Business.pdb
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\StudentRegistration.MVP\obj\Debug\StudentRegistration.MVP.csprojResolveAssemblyReference.cache
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\StudentRegistration.MVP\obj\Debug\StudentRegistration.MVP.EditStudents.resources
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\StudentRegistration.MVP\obj\Debug\StudentRegistration.MVP.NewStudentRegistrationForm.resources
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\StudentRegistration.MVP\obj\Debug\StudentRegistration.MVP.RemoveStudentRegistration.resources
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\StudentRegistration.MVP\obj\Debug\StudentRegistration.MVP.StudentRegistrationForm.resources
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\StudentRegistration.MVP\obj\Debug\StudentRegistration.MVP.StudentRegLoginForm.resources
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\StudentRegistration.MVP\obj\Debug\StudentRegistration.MVP.Properties.Resources.resources
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\StudentRegistration.MVP\obj\Debug\StudentRegistration.MVP.csproj.GenerateResource.Cache
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\StudentRegistration.MVP\obj\Debug\StudentRegistration.MVP.dll
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistirationWinForm\StudentRegistration.MVP\obj\Debug\StudentRegistration.MVP.pdb

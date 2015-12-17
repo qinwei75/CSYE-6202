@@ -21,3 +21,5 @@ D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\ClinicMVP\obj\Debug\Cli
 D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\ClinicMVP\obj\Debug\ClinicMVP.frmMakeAppointment.resources
 D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\ClinicMVP\obj\Debug\ClinicMVP.Properties.Resources.resources
 D:\NEU\CSYE6202\FinalProject - Copy\ClinicApplicationSln\ClinicMVP\obj\Debug\Clinic.MVP.csproj.GenerateResource.Cache
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FinalPro\ClinicApplicationSln\ClinicMVP\obj\Debug\ClinicMVP.exe
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\FinalPro\ClinicApplicationSln\ClinicMVP\obj\Debug\ClinicMVP.pdb

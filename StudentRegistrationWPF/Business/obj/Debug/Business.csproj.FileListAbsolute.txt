@@ -1,0 +1,5 @@
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistrationWPF\Business\bin\Debug\Business.dll
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistrationWPF\Business\bin\Debug\Business.pdb
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistrationWPF\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistrationWPF\Business\obj\Debug\Business.dll
+D:\NEU\CSYE6202\Assignments\WQ_Assignments\StudentRegistrationWPF\Business\obj\Debug\Business.pdb
